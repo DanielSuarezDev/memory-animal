@@ -1,0 +1,1 @@
+export {HomeLoad} from './Home.load';
