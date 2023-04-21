@@ -32,7 +32,7 @@ export const Login: FC<PropsLogin> = ({ handleLogin, setUsername, username }) =>
           </Button>
         </form>
         <div className="mt-44 text-gray-400">
-          con amor 💜 por @danielsuarezdedv
+          con amor 💜 por @danielsuarezdev
         </div>
       </div>
     </div>

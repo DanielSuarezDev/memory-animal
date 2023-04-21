@@ -34,16 +34,14 @@ export const Header: FC<HeaderProps> = ({
       {isOpen && (
         <Modal isOpen={isOpen} closeModal={setIsOpen}>
           <div>
-            <Button>
-              <a
-                className="flex items-center justify-center"
-                href="https://github.com/DanielSuarezDev/memory-animal"
-                target="_blank"
-              >
-                <img src={Octopus} alt="" />
-                Github
-              </a>
-            </Button>
+            <a
+              className="flex items-center justify-center bg-blue-950 text-white rounded-md mt-4"
+              href="https://github.com/DanielSuarezDev/memory-animal"
+              target="_blank"
+            >
+              <img src={Octopus} alt="" />
+              Github
+            </a>
 
             <Button
               className="bg-white border border-gray-600 w-full h-10 mt-2 rounded-md"
@@ -51,16 +49,19 @@ export const Header: FC<HeaderProps> = ({
             >
               Resetear
             </Button>
-            <form onSubmit={handlePairsCountSubmit} className="mt-4 flex">
-              <input
-                type="number"
-                id="pairs-count"
-                value={pairsCount}
-                onChange={(e) => setPairsCount(parseInt(e.target.value))}
-                required
-                className="w-24 h-10 border border-gray-600 rounded-md mr-2"
-              />
-              <Button type="submit">Aceptar</Button>
+            <form onSubmit={handlePairsCountSubmit} className="mt-4">
+              <label htmlFor="pairs-count">Digita numero de parejas</label>
+              <div className="flex">
+                <input
+                  type="number"
+                  id="pairs-count"
+                  value={pairsCount}
+                  onChange={(e) => setPairsCount(parseInt(e.target.value))}
+                  required
+                  className="w-24 h-10 border border-gray-600 rounded-md mr-2"
+                />
+                <Button type="submit">Aceptar</Button>
+              </div>
             </form>
           </div>
         </Modal>
