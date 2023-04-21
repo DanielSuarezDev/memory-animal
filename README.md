@@ -6,6 +6,8 @@ Cree un servidor para evitar los errores de cors provisionalmene para continuar 
 👉 Link api: https://github.com/DanielSuarezDev/memory-animal-api
 👉 Deploy project: https://memory-animal.vercel.app/
 
+- Se crea persistencia de datos para mejorar el performance
+
 ### `npm start`
 
 Runs the app in the development mode.\
