@@ -8,6 +8,14 @@ Cree un servidor para evitar los errores de cors provisionalmene para continuar 
 
 - Se crea persistencia de datos para mejorar el performance
 
+Tome el tiempo de prototiparlo en figma para tener una mejor guia:
+
+https://www.figma.com/file/7Woht96ra355dZRMT4PWCl/Memory?node-id=0%3A1&t=WVQuE7BWFPIhpxY4-1
+
+![iPhone 14 - 2](https://user-images.githubusercontent.com/65202664/233676257-1781d656-6d84-4dfb-adca-6fcce0fff408.png)
+![iPhone 14 - 4](https://user-images.githubusercontent.com/65202664/233676269-a0f91235-6167-430c-bb19-9ff30e055fb0.png)
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
