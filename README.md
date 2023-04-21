@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Memory animals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cree un servidor para evitar los errores de cors provisionalmene para continuar con el proyecto.
 
-## Available Scripts
-
-In the project directory, you can run:
+👉Repo server: https://github.com/DanielSuarezDev/memory-animal-api
+👉 Link api: https://github.com/DanielSuarezDev/memory-animal-api
+👉 Deploy project: https://memory-animal.vercel.app/
 
 ### `npm start`
 
